@@ -1,0 +1,38 @@
+.ItemCard{
+    border: 1px dotted peachpuff;
+    display: grid;
+    margin: 10px;
+
+}
+
+.ItemCard__image img{
+    height:250px;
+    border-radius: 3px;
+}
+
+.ItemCard__info {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemCard__info h3{
+    margin-top: 2px;
+    text-align: center;
+}
+
+.ItemCard__info button{
+    height: 50px;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: large;
+    color: red;
+
+}
+
+.ItemCard__info p{
+    text-align: center;
+}
