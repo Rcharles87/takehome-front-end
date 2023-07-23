@@ -1,0 +1,32 @@
+.NavImage{
+    width: 100%;
+}
+
+.NavImage h3{
+    text-align: center;
+}
+
+.NavImage__text{
+    display: flex;
+    background: url('../../../public/Assets/navImage.jpeg') center top / cover no-repeat ;
+    height: 15.625rem;
+    /* flex-direction: column; */
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.NavImage__text div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+
+.NavImage__text img{
+    height: 90px;
+    
+}
+
+
+
+

@@ -1,8 +1,10 @@
-.App{
+.App main{
   border: 2px solid green;
   display: grid;
   justify-content: center;
   align-items: center;
   height: 100vh;
   border-top: none;
+  /* margin-top: 1rem; */
 }
+

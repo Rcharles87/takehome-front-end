@@ -8,7 +8,7 @@ import IconButton from "@mui/material/IconButton";
 import Box from "@mui/material/Box";
 import { Menu, MenuItem, Tooltip, Typography } from "@mui/material";
 
-const navigation = ["Pizzas", "Sides", "Breads"];
+const navigation = ["Full Menu","Pizzas", "Sides", "Breads"];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -66,7 +66,7 @@ function NavBar() {
             >
               {navigation.map((setting) => (
                 <MenuItem key={setting} onClick={handleCloseNavMenu}>
-                  <Typography component="a" href="/" textAlign="center" sx={{textDecoration:"none", color: "black"}} >{setting}</Typography>
+                  <Typography component="a" href="/menu" textAlign="center" sx={{textDecoration:"none", color: "black"}} >{setting}</Typography>
                 </MenuItem>
               ))}
             </Menu>

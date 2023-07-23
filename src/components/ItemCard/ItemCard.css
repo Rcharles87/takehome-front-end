@@ -1,6 +1,7 @@
 .ItemCard{
     border: 1px dotted peachpuff;
     display: grid;
+    max-width: 250px;
     margin: 10px;
 
 }
@@ -13,7 +14,7 @@
 .ItemCard__info {
     display: grid;
     justify-content: center;
-    align-items: center;
+    justify-items: center;
 }
 
 .ItemCard__info h3{
@@ -22,17 +23,20 @@
 }
 
 .ItemCard__info button{
-    height: 50px;
-    width: 200px;
+    max-width: 135px;
     border: 2px solid red;
     border-radius: 8px;
-    background-color: white;
     font-weight: bolder;
-    font-size: large;
+    /* font-size: large; */
     color: red;
-
 }
 
 .ItemCard__info p{
     text-align: center;
+    overflow-wrap: break-word;
+}
+
+.ItemCard__info__toppings{
+    font-weight: 200;
+    text-transform: capitalize;
 }

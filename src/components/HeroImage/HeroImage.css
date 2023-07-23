@@ -1,0 +1,56 @@
+.HeroImage {
+  display: grid;
+  height: 20%;
+  width: 100%;
+  grid-template-columns: 57% auto;
+  grid-template-areas:
+    "hero  side1"
+    "hero  side2";
+  gap: 0.625rem;
+}
+
+.HeroImage img {
+    max-width: 100%;
+}
+
+.HeroImage__1 {
+  /* grid-area: "hero"; */
+  grid-area: hero;
+}
+
+.HeroImage__1 img {
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  /* position: absolute; */
+}
+
+.HeroImage__1__text{
+    display: grid;
+}
+
+.HeroImage__2 {
+  grid-area: side1;
+}
+
+.HeroImage__2 img {
+  aspect-ratio: 1.5 / 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.HeroImage__3 {
+  grid-area: side2;
+}
+
+.HeroImage__3 img {
+  aspect-ratio: 1.5 / 1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
