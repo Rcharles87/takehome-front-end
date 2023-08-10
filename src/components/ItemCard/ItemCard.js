@@ -24,7 +24,7 @@ function ItemCard({ item }) {
       <div className="ItemCard__info">
         <h3>{name}</h3>
         <Button>ADD TO ORDER</Button>
-        <p>{shortDescription}</p>
+        <p className="ItemCard__info__description">{shortDescription}</p>
         <p className="ItemCard__info__toppings">{toppings.length > 0 && `Toppings: ${toppings.join(", ")}`}</p>
       </div>
     </div>

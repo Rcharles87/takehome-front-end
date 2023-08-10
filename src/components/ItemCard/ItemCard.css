@@ -1,24 +1,32 @@
 .ItemCard{
-    border: 1px dotted peachpuff;
+    /* border: 1px dotted peachpuff; */
     display: grid;
-    max-width: 250px;
+    /* align-content: center; */
+    width: 250px;
     margin: 10px;
 
 }
 
+.ItemCard__image{
+    max-height: 250px;
+    max-width: 250px;
+}
+
 .ItemCard__image img{
-    height:250px;
+    height:255px;
     border-radius: 3px;
 }
 
 .ItemCard__info {
     display: grid;
+    max-height:max-content;
     justify-content: center;
     justify-items: center;
+    object-fit: cover;
 }
 
 .ItemCard__info h3{
-    margin-top: 2px;
+    /* margin-top: 2px; */
     text-align: center;
 }
 
@@ -27,7 +35,6 @@
     border: 2px solid red;
     border-radius: 8px;
     font-weight: bolder;
-    /* font-size: large; */
     color: red;
 }
 
@@ -36,7 +43,14 @@
     overflow-wrap: break-word;
 }
 
+/* .ItemCard__info__description{
+    margin-top: 0;
+    margin-bottom: 0;
+} */
+
 .ItemCard__info__toppings{
     font-weight: 200;
     text-transform: capitalize;
+    /* margin-top: 0;
+    margin-bottom: 0; */
 }
